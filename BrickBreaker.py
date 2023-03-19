@@ -35,7 +35,9 @@ while run: # while GUI is running
         
     rect = (x, y, width, height)
     
+    # clears screen of all old rectangles in old positions. 
     win.fill((0, 0, 0)) # fill the window
+    # arguments - surface, color, rect dimensios
     pygame.draw.rect(win, (255, 0, 0), rect)
     pygame.display.update()
     
